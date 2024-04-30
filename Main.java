@@ -16,7 +16,7 @@ public class Main {
                 "4. BRL X ARS",
                 "5. BRL X JPN",
                 "6. BRL X CNY",
-                "7.  --SAIR--"
+                "7. --SAIR--"
         };
         while (escolha!=7) {
             try {

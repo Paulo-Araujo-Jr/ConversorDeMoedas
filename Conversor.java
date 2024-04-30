@@ -39,33 +39,33 @@ class Conversor {
                 switch (escolha){
                     case 1:
                         System.out.println("Quantidade a ser convertida: "+ qnt);
-                        System.out.println("Valor do 1 USD x 1 BRL"+ conversionRates.get("USD").getAsDouble());
+                        System.out.println("Valor de 1 USD x 1 BRL "+ conversionRates.get("USD").getAsDouble());
                         double resultado1 = conversionRates.get("USD").getAsDouble() * qnt;
                         return resultado1;
 
                     case 2:
                         System.out.println("Quantidade a ser convertida: "+ qnt);
-                        System.out.println("Valor do 1 EUR x 1 BRL"+ conversionRates.get("EUR").getAsDouble());
+                        System.out.println("Valor de 1 EUR x 1 BRL "+ conversionRates.get("EUR").getAsDouble());
                         double resultado2 = conversionRates.get("EUR").getAsDouble() * qnt;
                         return resultado2;
                     case 3:
                         System.out.println("Quantidade a ser convertida: "+ qnt);
-                        System.out.println("Valor do 1 KWD x 1 BRL"+ conversionRates.get("KWD").getAsDouble());
+                        System.out.println("Valor de 1 KWD x 1 BRL "+ conversionRates.get("KWD").getAsDouble());
                         double resultado3 = conversionRates.get("KWD").getAsDouble() * qnt;
                         return resultado3;
                     case 4:
                         System.out.println("Quantidade a ser convertida: "+ qnt);
-                        System.out.println("Valor do 1 ARS x 1 BRL"+ conversionRates.get("ARS").getAsDouble());
+                        System.out.println("Valor de 1 ARS x 1 BRL "+ conversionRates.get("ARS").getAsDouble());
                         double resultado4 = conversionRates.get("ARS").getAsDouble() * qnt;
                         return resultado4;
                     case 5:
                         System.out.println("Quantidade a ser convertida: "+ qnt);
-                        System.out.println("Valor do 1 JPY x 1 BRL"+ conversionRates.get("JPY").getAsDouble());
+                        System.out.println("Valor de 1 JPY x 1 BRL "+ conversionRates.get("JPY").getAsDouble());
                         double resultado5 = conversionRates.get("JPY").getAsDouble() * qnt;
                         return resultado5;
                     case 6:
                         System.out.println("Quantidade a ser convertida: "+ qnt);
-                        System.out.println("Valor do 1 CNY x 1 BRL"+ conversionRates.get("CNY").getAsDouble());
+                        System.out.println("Valor de 1 CNY x 1 BRL "+ conversionRates.get("CNY").getAsDouble());
                         double resultado6 = conversionRates.get("CNY").getAsDouble() * qnt;
                         return resultado6;
 
